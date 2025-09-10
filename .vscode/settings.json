@@ -1,0 +1,16 @@
+{
+    // ✅ Use Black for formatting
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79"
+    ],
+    // ✅ Enable linting
+    "python.linting.enabled": true,
+    // Option 1: Flake8 (traditional)
+    "python.linting.flake8Enabled": true,
+    // Option 2: Ruff (faster, recommended)
+    "ruff.enable": true,
+    "ruff.lintOnSave": true,
+}
